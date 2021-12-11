@@ -6,7 +6,7 @@ foreach($dataArray['data'] as $key=> $value)
 
 {
 
-$file=fopen("prod.txt",'a') or die("cant op");
+$file=fopen("prod.txt",’w') or die("cant op");
     $p1=($value ['products_id']);
     $p2=($value ['products_quantity']);
     $p3=($value ['products_model']);
